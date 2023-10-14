@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/header.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 300px 10px;
+}
+
+nav {
+    padding: 0px 20px;
+}
+
+.carousel {
+    padding: 10px 600px;
+}
+
+.carousel-control-prev-icon {
+    color: black;
+    background-color: black;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    color: black;
+}
+
+.judul-utama {
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin: 100px 0px 50px;
+}
+
+.judul {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.deskripsi {
+    font-size: 1.2rem;
+    margin: 5px 0px;
+}
+
+.sub-judul {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.keterangan {
+    font-size: 1.2rem;
+}
+
+.harga {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(32, 142, 216);
+    margin: 20px 0px;
+}
+
+.btn-primary:hover {
+    background-color: #717171;
+    animation-duration: 30000ms;
+    transition: ease-in;
+    border: #ffff;
+}
+
+.btn-primary {
+    background-color: #a7a7a7;
+    color: white;
+    animation-duration: 30000ms;
+    transition: ease-in;
+    border: white;
+}
+
+.global-container {
+    padding: 10px 30px;
+    align-items: center;
+    display: flex;
+}
+
+.container1 {
+    background: #d6d6d6;
+    width: 100%;
+    padding: 50px;
+    height: 15rem;
+    margin: 10px 100px;
+    border-radius: 1rem;
+    box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.08);
+}
+
+
+
+.konten1 {
+    padding: 150px 200px;
+}
+
+.img-transaksi {
+    padding: 10%;
+    width: 100%;
+}
+
+.konten2 {
+    padding: 0px 200px;
+}
+
+.img-rules {
+    padding: 10px 200px;
+    width: 100%;
+}
+
+.container2 {
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 300px;
+    padding: 20px 40px;
+    margin: 10px 0px;
+    background: #d6d6d6;
+    -webkit-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: -1px 3px 28px 0px rgba(0, 0, 0, 0.08);
+}
+
+.row {
+    column-count: 1;
+}
+
+/* responsive tab */
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+
+    .row {
+        column-count: 1;
+    }
+}
+
+
+/* responsive hp */
+@media screen and (max-width: 767px) {
+    .global-container {
+        display: block;
+    }
+
+    img {
+        padding: 10%;
+        width: 100%;
+    }
+
+    .row {
+        column-count: 1;
+    }
+
+    .container1 {
+        width: 100%;
+        height: 150px;
+        padding: 20px;
+        margin: 10px 0px;
+    }
+
+    .container2 {
+        width: 100%;
+        border-radius: 0.5rem;
+        height: 220px;
+        padding: 20px;
+        margin: 10px 0px;
+        background: #d6d6d6;
+    }
+
+    .img-rules {
+        display: none;
+    }
+
+    .konten1 {
+        padding: 150px 30px;
+    }
+
+    .konten2 {
+        padding: 0px 30px;
+    }
+
+    .judul {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .judul-utama {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 100px 0px 50px;
+    }
+
+    .deskripsi {
+        font-size: 0.8rem;
+    }
+
+    .sub-judul {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .keterangan {
+        font-size: 0.7rem;
+    }
+
+    .harga {
+        font-weight: bold;
+        color: rgb(32, 142, 216);
+        margin: 20px 0px;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+        padding: 30px 20px;
+    }
+}
