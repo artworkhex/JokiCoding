@@ -6,7 +6,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
 }
+
+
 
 header {
 
@@ -23,6 +27,30 @@ header {
 
 nav {
     padding: 0px 20px;
+    background-color: white;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.18);
+}
+
+/* Custom CSS for the fixed-top navbar */
+.fixed-top-scroll .navbar {
+    background-color: #333;
+    /* Warna latar belakang navbar saat di-scroll */
+    transition: background-color 0.3s;
+    /* Transisi perubahan warna latar belakang */
+}
+
+.fixed-top-scroll .navbar a.nav-link {
+    color: #fff;
+    /* Warna teks link pada navbar saat di-scroll */
+}
+
+.panah-atas {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 20px;
 }
 
 .carousel {
